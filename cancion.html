@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Cancion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/78982844d1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1 class="text-center p-3">Cancion</h1>
+    
+    <div class="container-fluid row">
+        <form class="col-4 p-3">
+            <h3 class="text-center text-secondary">Agregar Cancion</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">ID</label>
+              <input type="text" class="form-control" name="id">
+              
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Titulo</label>
+                <input type="text" class="form-control" name="titu">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Minutos</label>
+                <input type="text" class="form-control" name="minu">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Segundos</label>
+                <input type="text" class="form-control" name="seg">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Interprete</label>
+                <input type="text" class="form-control" name="inter">
+                
+            </div>
+
+            
+            
+            <button type="submit" class="btn btn-primary" name="agregar_C" value="ok">Agregar</button>
+          </form>
+
+
+          <div class="col-8 p-4">
+            <table class="table">
+                <thead class="bg-info">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Minutos</th>
+                    <th scope="col">Segundos</th>
+                    <th scope="col">Interprete</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>tittle</td>
+                    <td>4</td>
+                    <td>10</td>
+                    <td>abcddd</td>
+                    <td>
+                        <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+                        <a href=""><i class="fa-solid fa-trash"></i></a>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+          </div>
+
+        
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

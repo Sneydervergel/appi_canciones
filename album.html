@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Album</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/78982844d1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1 class="text-center p-3">Album</h1>
+    
+    <div class="container-fluid row">
+        <form class="col-4 p-3">
+            <h3 class="text-center text-secondary">Agregar Album</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">ID</label>
+              <input type="text" class="form-control" name="id">
+              
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Titulo</label>
+                <input type="text" class="form-control" name="usuario">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Año</label>
+                <input type="text" class="form-control" name="anio">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Descripcion</label>
+                <input type="text" class="form-control" name="desc">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Medio</label>
+                <input type="text" class="form-control" name="medio">
+                
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">usuario</label>
+                <input type="text" class="form-control" name="usua">
+                
+            </div>
+            
+            <button type="submit" class="btn btn-primary" name="agregar_A" value="ok">Agregar</button>
+          </form>
+
+
+          <div class="col-8 p-4">
+            <table class="table">
+                <thead class="bg-info">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Año</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Medio</th>
+                    <th scope="col">Usuario</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Nose</td>
+                    <td>2023</td>
+                    <td>descripcionnnn</td>
+                    <td>CD</td>
+                    <td>juan88</td>
+                    <td>
+                        <a href=""><i class="fa-regular fa-pen-to-square"></i></a>
+                        <a href=""><i class="fa-solid fa-trash"></i></a>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+          </div>
+
+        
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
